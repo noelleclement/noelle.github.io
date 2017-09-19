@@ -12,3 +12,4 @@ So far the website thought me the concepts of: (not all may (still) be featured 
 - Very basic PHP
 - Using Formspree instead of having an attempt at PHP and mailservers (as one of my teachers says: being lazy can actually get you better results)
 - Actually using the extra's Sublime Text has to offer (packages, prettifying code)
+- Adding usage of .hcaccess so .html is erased from URL's and my website looks a bit more professional
