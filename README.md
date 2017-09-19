@@ -1,2 +1,14 @@
-# noelle.github.io
-Look at me finally coding my own website wow
+# noelleclement.github.io
+Look at me finally coding my own website wow.
+
+So this has definitely been a long time coming, since coding a very basic HTML/CSS website was part of the CS curriculum at my high school. 
+As I'm not necessarily interested in webapplications this wasn't the most obvious project for me, but I found it a good challenge for trying something different. Also the idea of having a portfolio website spoke to me, so thus the idea was born!
+
+So far the website thought me the concepts of: (not all may (still) be featured on the website)
+- HTML5
+- CSS3, including making a website responsive
+- Bootstrap
+- Very basic Javascript
+- Very basic PHP
+- Using Formspree instead of having an attempt at PHP and mailservers (as one of my teachers says: being lazy can actually get you better results)
+- Actually using the extra's Sublime Text has to offer (packages, prettifying code)
