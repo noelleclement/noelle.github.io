@@ -1,5 +1,5 @@
 # noelleclement.github.io
-Look at me finally coding my own website wow.
+Look at me finally coding my own website wow. To be clear: with 'from scratch' I mean I'm not using any Wordpress templates or the like. Of course I'm using frameworks and getting code from tutorials (or parts of other websites, when I'm being creative).
 
 So this has definitely been a long time coming, since coding a very basic HTML/CSS website was part of the CS curriculum at my high school. 
 As I'm not necessarily interested in webapplications this wasn't the most obvious project for me, but I found it a good challenge for trying something different. Also the idea of having a portfolio website spoke to me, so thus the idea was born!
