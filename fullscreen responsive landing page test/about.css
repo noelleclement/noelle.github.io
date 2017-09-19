@@ -37,6 +37,7 @@ body {
 	color: #ffdfad; /*#ffcc99;*/
 	border-radius: 9px;
 	border: solid #ffdfad 3px;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -44,7 +45,7 @@ body {
 .navbar-brand {
 	margin-top: 1rem;
 	margin-bottom: 0;
-	font-size: 150%;
+	font-size: 160%;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 1rem;
@@ -54,13 +55,30 @@ body {
 	margin-top: 0rem;
 	margin-right: 0rem;
 	color: #000000;
+	font-size: 120%;
 }
+
 
 .breadcrumb-item{
 	color: #000000;
 }
 
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h3{
+  margin-top: 0.5rem;
+}
 
+.marketing h3{
+	font-size: 220%;
+	margin-bottom: 1rem;
+}
+  
+.marketing p{
+	font-size: 150%;
+}
 
 /* Custom page footer */
 .footer {
@@ -80,16 +98,12 @@ body {
 }
 
 
-/* Supporting marketing content */
-.marketing {
-  margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
-}
+
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
+@media screen and (max-width: 768px)
+	{
+		/*min-width: 48em) */
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -99,9 +113,15 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
-  .breadcrumb{
-  	margin-top: 1rem;
+
+  .marketing h3{
+  	font-size: 180%;
   }
+
+  .marketing p{
+  	font-size: 130%;
+  }
+
 }
