@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html, body{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	font-size: 14px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
 }
 
 
@@ -14,9 +14,9 @@ html, body{
 
 /* Space out content a bit */
 body {
-  	padding-top: 1.5rem;
-  	padding-bottom: 1.5rem;
-  	color: #515151;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #515151;
     background-color: #fff;
 }
 
@@ -29,38 +29,38 @@ body {
 }
 
 .container{
-	font-family: 'Ubuntu';. sans-serif;
+  font-family: 'Ubuntu';. sans-serif;
 }
 
 /* Custom page header styling */
 .header {
-	color: #ffdfad; /*#ffcc99;*/
-	border-radius: 9px;
-	border: solid #ffdfad 3px;
+  color: #ffdfad; /*#ffcc99;*/
+  border-radius: 9px;
+  border: solid #ffdfad 3px;
     margin-bottom: 1.5rem;
 }
 
 
 /* Make the masthead heading the same height as the navigation */
 .navbar-brand {
-	margin-top: 1rem;
-	margin-bottom: 0;
-	font-size: 160%;
-	text-transform: uppercase;
-	text-decoration: none;
-	margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 160%;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
 .nav-link{
-	margin-top: 0rem;
-	margin-right: 0rem;
-	color: #000000;
-	font-size: 120%;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  color: #000000;
+  font-size: 120%;
 }
 
 
 .breadcrumb-item{
-	color: #000000;
+  color: #000000;
 }
 
 /* Supporting marketing content */
@@ -72,12 +72,12 @@ body {
 }
 
 .marketing h3{
-	font-size: 220%;
-	margin-bottom: 1rem;
+  font-size: 220%;
+  margin-bottom: 1rem;
 }
   
 .marketing p{
-	font-size: 150%;
+  font-size: 150%;
 }
 
 /* Custom page footer */
@@ -102,8 +102,8 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px)
-	{
-		/*min-width: 48em) */
+  {
+    /*min-width: 48em) */
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -117,11 +117,11 @@ body {
   }
 
   .marketing h3{
-  	font-size: 180%;
+    font-size: 180%;
   }
 
   .marketing p{
-  	font-size: 130%;
+    font-size: 130%;
   }
 
 }
