@@ -78,6 +78,10 @@ body {
     font-size: 150%;
 }
 
+.contacttext p {
+  font-size: 100%;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 1.5rem;
