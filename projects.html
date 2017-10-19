@@ -14,6 +14,7 @@
 
 	<!-- Custom styles for this template -->
 	<link href="about.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 	<div class="container">
 
 		<div class="header clearfix">
-			<a class="navbar-brand text-muted" href='#'>Noëlle Clement</a>
+			<a class="navbar-brand text-muted" href='/index'>Noëlle Clement</a>
 			<nav class="nav justify-content-end">
 				<a class="nav-link" href="/about">about</a>
 				<a class="nav-link active" href="#">projects</a>
@@ -44,16 +45,91 @@
 			</div>
 		</div>
 
+
+
+		<div class="content">
+
+			<!--
+
+				#im just gonna leave this here out of principal, because WHY WONT YOU WORK
+			
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" >Home</a>
+					<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" >Profile</a>
+					<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" >Messages</a>
+					<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" >Settings</a>
+				</div>
+			</div>
+		
+		
+			<div class="col-4">
+				<ul class="nav list-group" id="myList">
+					<li><a class="list-group-item list-group-item-action" data-toggle="tab" href="#home">home</a></li>
+					<li><a class="list-group-item list-group-item-action" data-toggle="tab" href="#profile">profile</a></li>
+					<li><a class="list-group-item list-group-item-action" data-toggle="tab" href="#messages">messages</a></li>
+					<li><a class="list-group-item list-group-item-action" data-toggle="tab" href="#settings">settings</a></li>
+				</ul>
+			</div>
+
+			<div class="col-8">
+				<div class="tab-content">
+					<div class="tab-pane show active" id="home">first</div>
+					<div class="tab-pane" id="profile">second</div>
+					<div class="tab-pane" id="messages">third</div>
+					<div class="tab-pane" id="settings">fourth</div>
+				</div>
+			</div>
+
+		-->
+
+		<h5 class="text-center pb-5"> A list of the projects that I've done (in a team or on my own). Please refer to the github ReadMe's for more elaborate descriptions. The videos might be in Dutch.</h3>
+
+		<ul class="list-unstyled">
+			<li class="media">
+				<img class="d-flex mr-5" src="ardweknow.png" alt="image" height="64" width="64">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">ArdWeknow</h5>
+					<p>First project with Arduino: Create an electric stove simulation with LED's, a 7-segment display and buttons<br />
+					<a href="https://github.com/noelleclement/ArdWeKnow" target="_blank">github</a> - <a href="https://youtu.be/7p04GRgQFnU" target="_blank">video</a></p>
+				</div>
+			</li>
+			<li class="media my-4">
+				<img class="d-flex mr-5" src="baymax.png" alt="image" height="64" width="64">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">Baymax</h5>
+					<p>The maze-solving robot Baymax! Created with Arduino and mainly ultrasonic sensors<br />
+					<a href="https://github.com/noelleclement/baymax" target="_blank">github</a> - <a href="vimeo.com/218262909" target="_blank">video</a></p>
+				</div>
+			</li>
+			<li class="media my-4">
+				<img class="d-flex mr-5" src="ecorp.png" alt="image" height="64" width="64">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">E-corp</h5>
+					<p>The software + hardware (money dispenser) of a bank. Combining many components like Arduino, a Java application and a server with database <br />
+					<a href="https://github.com/noelleclement/e-corp" target="_blank">github</a> </p>
+				</div>
+			</li>
+		</ul>
+
+
+
+
+		</div>
+
+
+
+		
+
 		<footer class="footer">
 			<p>&copy; 2017 Noëlle Clement</p>
 		</footer>
 
-	</div> <!-- /container -->
+	</div> 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
