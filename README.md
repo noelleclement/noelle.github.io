@@ -14,3 +14,4 @@ So far the website thought me the concepts of: (not all may (still) be featured 
 - Actually using the extra's Sublime Text has to offer (packages, prettifying code)
 - Adding usage of .hcaccess so .html is erased from URL's and my website looks a bit more professional
 - Finding out that even widely used frameworks like Bootstrap have quite some bugs in them that makes it very easy for you to spent hours on an issue that isn't really solvable (other than spending more hours on getting around it). Sometimes the best solution is the easiest one, people.
+- Adding stubborn Bootstrap components (like carousel) and more accurately figuring out spacing
